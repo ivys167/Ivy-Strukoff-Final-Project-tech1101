@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar span {
+    font-size: 1.5em;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    background-color: #444;
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+
+.pagebody {
+    position: relative;
+    top: 70px;
+    padding: 40px;
+
+    z-index: -1;
+    background-image: linear-gradient(to bottom right, white, #AAA);
+}
+
+/* Put code relating to the body here */
+
+.propertiesheader h1 {
+    background-color: #777;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 5px 10px 8px #666;
+}
+
+.propertiesheader h2 {
+    background-color: #888;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #666;
+}
+
+.propertiesheader p {
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.propertiestable {
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.proptab {
+    border-collapse: collapse;
+    box-shadow: 5px 10px 8px #666;
+}
+
+.proptab #toprow {
+    background-color: #666;
+    font-size: 1.25em;
+    color: white;
+}
+
+.proptab tr:nth-child(even) {
+    background-color: white;
+}
+
+.proptab tr:nth-child(odd) {
+    background-color: #DDD;
+}
+
+.proptab th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.examplescssheader h2 {
+    background-color: #888;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #666;
+}
+
+.examplescssheader p {
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.examplescssbody {
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.rowofboxes div {
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 5px 10px 8px #666;
+}
+
+.redbox {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+
+    background-color: red;
+    border: 3px solid black;
+}
+
+.bluebox {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+
+    background-color: blue;
+    border: 3px solid black;
+}
+
+.yellowbox {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+
+    background-color: yellow;
+    border: 3px solid black;
+}
+
+#colorchange {
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: #333;
+    padding: 20px;
+    gap: 10px;
+
+    top: 70px;
+    left: 0;
+    right: 0;
+
+}
+
+.footer span {
+    color: white;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    background-color: #444;
+    border-radius: 5px;
+    padding: 15px 20px;
+}

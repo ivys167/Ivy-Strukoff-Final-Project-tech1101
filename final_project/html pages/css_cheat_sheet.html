@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Cheat Sheet</title>
+    <link rel="stylesheet" href="/final_project/css/stylescss.css">
+</head>
+<body>
+    <!-- This page is a cheat sheet of everything I know about css -->
+    
+    <div class="container">
+        <div class="navbar">
+            <span id="name">Ivy Strukoff</span>
+            <a href="index.html">Home</a>
+            <a href="html_cheat_sheet.html">HTML</a>
+            <a href="css_cheat_sheet.html">CSS</a>
+        </div>
+
+        <div class="pagebody">
+            <div class="properties">
+                <div class="propertiesheader">
+                    <h1>CSS cheat sheet and notes</h1>
+                    <h2>CSS properties</h2>
+                    <p>Properties are things in css used to change the styling of the webpage. Below is a table of the most essential ones to remember</p>
+                </div>
+                <div class="propertiestable">
+                    <table class="proptab">
+                        <tr id="toprow">
+                            <td><strong>Property</strong></td>
+                            <td><strong>Description</strong></td>
+                        </tr>
+                        <tr>
+                            <td>align-content</td>
+                            <td>Specifies alignment between the lines inside a flexible container when the items do not use all avaliable space</td>
+                        </tr>
+                        <tr>
+                            <td>align-items</td>
+                            <td>Specifies alignment for items inside a flexible container</td>
+                        </tr>
+                        <tr>
+                            <td>animation</td>
+                            <td>Shorthand property for all the animation-* properties, animates an element of a page</td>
+                        </tr>
+                        <tr>
+                            <td>background</td>
+                            <td>Shorthand property for all the background-* properties, inserts an image in the background of a container</td>
+                        </tr>
+                        <tr>
+                            <td>border</td>
+                            <td>Shorthand property for border-width, border-style, and border-color properties, specifies the type of border, the size and color.</td>
+                        </tr>
+                        <tr>
+                            <td>box-shadow</td>
+                            <td>Adds a shadow to an element, can specify color and opacity</td>
+                        </tr>
+                        <tr>
+                            <td>color</td>
+                            <td>Sets color of text</td>
+                        </tr>
+                        <tr>
+                            <td>flex</td>
+                            <td>Shorthand property for flex-grow, flex-shrink, and flex-basis, makes an item flexible</td>
+                        </tr>
+                        <tr>
+                            <td>font-family</td>
+                            <td>Specifies the font familt for the text</td>
+                        </tr>
+                        <tr>
+                            <td>font-size</td>
+                            <td>Specifies the font size of the text</td>
+                        </tr>
+                        <tr>
+                            <td>justify-content</td>
+                            <td>Specifies alignment between the items inside a flexible container when the items do not use all available space</td>
+                        </tr>
+                        <tr>
+                            <td>justify-items</td>
+                            <td>Is set on the grid container. Specifies the alignment of grid items in the inline direction</td>
+                        </tr>
+                        <tr>
+                            <td>margin</td>
+                            <td>Adds space outside the element to seperate from other elements</td>
+                        </tr>
+                        <tr>
+                            <td>opacity</td>
+                            <td>Sets opacity level for an element</td>
+                        </tr>
+                        <tr>
+                            <td>padding</td>
+                            <td>Adds space inside the element to seperate it from other elements</td>
+                        </tr>
+                        <tr>
+                            <td>text-align</td>
+                            <td>Specifies horizontal alignment of the text</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="examplescss">
+                <div class="examplescssheader">
+                    <h2>Examples of CSS in action</h2>
+                    <p>Here are some examples of css in usage</p>
+                </div>
+                <div class="examplescssbody">
+                    <h3>Three boxes</h3>
+                    
+                    <div class="rowofboxes">
+                        <div class="redbox"></div>
+                        <div class="bluebox"></div>
+                        <div class="yellowbox"></div>
+                    </div><br><br>
+
+                    <h3>Color changing text</h3>
+                    <p>The background of this text will change color to grey when the user clicks on it</p>
+                    <button id="colorchange" onclick="changeStyleButton()">Click on me!</button><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Ivy Strukoff's website css cheat sheet</p>
+            <a href="#navbar">Back to top</a>
+        </div>
+
+    </div>
+
+    <script src="/final_project/javascript/scriptcss.js"></script>
+</body>
+</html>
